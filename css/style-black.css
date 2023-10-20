@@ -53,7 +53,7 @@ a:hover {
 .box-shadow,
 .paralax-mf,
 .service-box,
-.work-box,
+.portfolio-box,
 .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -715,8 +715,41 @@ a:hover {
 }
 
 /*======================================
+//--//-->   RESUME
+======================================*/
+
+.resume-mf .paralax-mf {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.resume-mf .title-box .title-a {
+  color: #ffffff;
+}
+
+.resume-mf .title-box .subtitle-a {
+  color: #ffffff;
+}
+
+.resume-mf .line-mf {
+  background-color: #ffffff;
+}
+
+.resume-mf .resume-img {
+  margin-bottom: 2rem;
+}
+
+.resume-mf .resume-img img {
+  margin-left: 4px;
+}
+
+/*======================================
 //--//-->   SERVICES
 ======================================*/
+
+.services-mf .title-box {
+  padding-top: 4rem;
+}
 
 .service-box {
   background-color: #fff;
@@ -782,51 +815,51 @@ a:hover {
 //--//-->   PORTFOLIO
 ======================================*/
 
-.work-box {
+.portfolio-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
 }
 
-.work-box:hover img {
+.portfolio-box:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
 
-.work-img {
+.portfolio-img {
   display: block;
   overflow: hidden;
 }
 
-.work-img img {
+.portfolio-img img {
   transition: all 1s;
 }
 
-.work-content {
+.portfolio-content {
   padding: 2rem 3% 1rem 4%;
 }
 
-.work-content .w-more {
+.portfolio-content .w-more {
   color: #4e4e4e;
   font-size: 0.8rem;
 }
 
-.work-content .w-more .w-ctegory {
+.portfolio-content .w-more .w-ctegory {
   color: #000000;
 }
 
-.work-content .w-like {
+.portfolio-content .w-like {
   font-size: 2.5rem;
   color: #000000;
   float: right;
 }
 
-.work-content .w-like a {
+.portfolio-content .w-like a {
   color: #000000;
 }
 
-.work-content .w-like .num-like {
+.portfolio-content .w-like .num-like {
   font-size: 0.7rem;
 }
 
