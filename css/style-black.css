@@ -260,7 +260,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #000000;
+  box-shadow: 0 0 0 8px #000000;
   display: block;
 }
 
@@ -599,6 +599,28 @@ a:hover {
 /*======================================
 //--//-->   ICON
 ======================================*/
+.resume-box .icon-school::before {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  content: url('../ico/school-black.svg');
+}
+
+.resume-box:hover .icon-school::before {
+  content: url('../ico/school-white.svg');
+}
+
+.resume-box .icon-electric-charge::before {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  content: url('../ico/electric-charge-black.svg');
+}
+
+.resume-box:hover .icon-electric-charge::before {
+  content: url('../ico/electric-charge-white.svg');
+}
+
 .service-box .icon-on-off-power::before {
   width: 50px;
   height: 50px;
@@ -691,11 +713,14 @@ a:hover {
 }
 
 .about-mf .about-img {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .about-mf .about-img img {
   margin-left: 4px;
+  border-width: 2px;
+  border-style: groove;
+  border-color: #000;
 }
 
 .skill-mf span {
@@ -717,6 +742,30 @@ a:hover {
 /*======================================
 //--//-->   RESUME
 ======================================*/
+.resume-box {
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.resume-box:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #000000;
+  box-shadow: 0 0 0 10px #ffffff;
+}
+
+.resume-box .resume-ico {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+
+.resume-box .ico-circle {
+  transition: all 500ms ease;
+  font-size: 3.5rem;
+  height: 82px;
+  width: 82px;
+  box-shadow: 0 0 0 8px #000000;
+}
 
 .resume-mf .paralax-mf {
   padding-top: 4rem;
@@ -795,7 +844,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #ffffff;
+  box-shadow: 0 0 0 4px #ffffff;
 }
 
 .counter-num .counter {
