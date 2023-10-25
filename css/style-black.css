@@ -600,8 +600,8 @@ a:hover {
 //--//-->   ICON
 ======================================*/
 .resume-box .icon-school::before {
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
   display: inline-block;
   content: url('../ico/school-black.svg');
 }
@@ -611,8 +611,8 @@ a:hover {
 }
 
 .resume-box .icon-electric-charge::before {
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
   display: inline-block;
   content: url('../ico/electric-charge-black.svg');
 }
@@ -621,15 +621,27 @@ a:hover {
   content: url('../ico/electric-charge-white.svg');
 }
 
-.service-box .icon-on-off-power::before {
+.about-box .icon-on-off-power::before {
   width: 50px;
   height: 50px;
   display: inline-block;
   content: url('../ico/on-off-power-black.svg');
 }
 
-.service-box:hover .icon-on-off-power::before {
+.about-box:hover .icon-on-off-power::before {
   content: url('../ico/on-off-power-white.svg');
+}
+
+.service-box .icon-electric-lightbulb::before {
+  margin-top: 8px;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  content: url('../ico/electric-lightbulb-black.svg');
+}
+
+.service-box:hover .icon-electric-lightbulb::before {
+  content: url('../ico/electric-lightbulb-white.svg');
 }
 
 /*======================================
