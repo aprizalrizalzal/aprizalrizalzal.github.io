@@ -742,10 +742,6 @@ a:hover {
 /*======================================
 //--//-->   RESUME
 ======================================*/
-.resume-box {
-  background-color: #fff;
-  border-radius: 1rem;
-}
 
 .resume-box:hover .ico-circle {
   transition: all 500ms ease;
